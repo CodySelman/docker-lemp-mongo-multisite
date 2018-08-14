@@ -37,7 +37,7 @@ To view the logs for other services, type `sudo journalctl <service name>`
 ## Certbot
 Once the non-SSL version of your site appears, it's time to generate the SSL certificate with Let's Encrypt.
 
-Log into certbot with `docker exit -it certbot bash`
+Log into certbot with `docker exec -it certbot bash`
 
 Then, run:
 
